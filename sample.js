@@ -42,7 +42,8 @@ function euroConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -91,7 +92,8 @@ function dollarConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -140,7 +142,8 @@ function poundConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -189,7 +192,8 @@ function yenConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -238,7 +242,8 @@ function rupeeConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -287,7 +292,8 @@ function asdConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -336,7 +342,8 @@ function skwConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -385,7 +392,8 @@ function rubleConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -434,7 +442,8 @@ function yuanConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -483,7 +492,8 @@ function francConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -532,7 +542,8 @@ req.onload=()=>{
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -582,7 +593,8 @@ function pesoConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -631,7 +643,8 @@ function iskConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -680,7 +693,8 @@ function ronConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -729,7 +743,8 @@ function brlConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -778,7 +793,8 @@ function bgnConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -827,7 +843,8 @@ function idrConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -876,7 +893,8 @@ function sgdConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -925,7 +943,8 @@ function cadConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -974,7 +993,8 @@ function islConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1023,7 +1043,8 @@ function zarConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1072,7 +1093,8 @@ function hrkConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1121,6 +1143,7 @@ function czkConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
+    para.innerHTML="";
     var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
@@ -1170,7 +1193,8 @@ function sekConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1219,7 +1243,8 @@ function dkkConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1268,7 +1293,8 @@ function nokConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1317,7 +1343,8 @@ function thbConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1366,7 +1393,8 @@ function nzdConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1415,7 +1443,8 @@ function triConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1464,7 +1493,8 @@ function hkdConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1513,7 +1543,8 @@ function plnConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1562,7 +1593,8 @@ function hufConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
@@ -1611,7 +1643,8 @@ function phpConverter(){
 
     var cDate = obj.date;
     var para = document.getElementById("obs-date");
-    var t = document.createTextNode("Values as published by the European central Bank at the end of " + cDate);
+    para.innerHTML="";
+    var t = document.createTextNode("*Values as published by the European central Bank at the end of " + cDate);
     para.appendChild(t);
     }
 }
