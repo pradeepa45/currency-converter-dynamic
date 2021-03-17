@@ -3,7 +3,7 @@
     <title>
         Currency convertor
     </title>
-    <link href="newone.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <script src="sample.js"></script>
     <body>
         </div>
