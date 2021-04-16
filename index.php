@@ -36,6 +36,7 @@
                 <td>Brazilian Real: </td><td><input type="text" name="brl" onChange="brlConverter()" /></td>
                 <td>Indian Rupee: </td><td><input type="text" name="rupee" onChange="rupeeConverter()" /></td>
 		        <td>Romenian Leu: </td><td><input type="text" name="ron" onChange="ronConverter()" /></td>
+					</tr>
                 <tr>
                 <td>Bulgarian Lev: </td><td><input type="text" name="bgn" onChange="bgnConverter()" /></td>
                 <td>Indonesian Rupee: </td><td><input type="text" name="idr" onChange="idrConverter()" /></td>
