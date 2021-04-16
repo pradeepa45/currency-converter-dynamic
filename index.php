@@ -3,11 +3,17 @@
     <title>
         Currency convertor
     </title>
-    <link href="style.css" rel="stylesheet">
-    <script src="sample.js"></script>
+    	<link href="style.css" rel="stylesheet">
+    	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+	<script
+  		src="https://code.jquery.com/jquery-3.1.1.min.js"
+  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  		crossorigin="anonymous"></script>
+	<script src="semantic/dist/semantic.min.js"></script>
+    	<script src="sample.js"></script>
     <body>
-        </div>
-        <div class="top-bar">
+	<div class = "ui segment">
+		<div class="top-bar">
             <h1 class="header">Currency Convertor</h1>
             
         </div>
@@ -81,6 +87,8 @@
                 </table>
 		</form>
         
-        </div>
+        </div>	
+		<p>For a second version (simpler but static), <a href='https://github.com/pradeepa45/currency-converter-static'>Visit this link</a></p>
+	</div>
     </body>
 </html>
