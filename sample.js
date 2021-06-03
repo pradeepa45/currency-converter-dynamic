@@ -1,5 +1,6 @@
 function euroConverter(){
-    let url = "https://api.ratesapi.io/latest?base=EUR"
+    // http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=EUR"
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -49,7 +50,7 @@ function euroConverter(){
 }
 
 function dollarConverter(){
-    let url = "https://api.ratesapi.io/latest?base=USD";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=USD";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -99,7 +100,7 @@ function dollarConverter(){
 }
 
 function poundConverter(){
-    let url = "https://api.ratesapi.io/latest?base=GBP";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=GBP";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -149,7 +150,7 @@ function poundConverter(){
 }
 
 function yenConverter(){
-    let url = "https://api.ratesapi.io/latest?base=JPY";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=JPY";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -199,7 +200,7 @@ function yenConverter(){
 }
 
 function rupeeConverter(){
-    let url = "https://api.ratesapi.io/latest?base=INR";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=INR";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -249,7 +250,7 @@ function rupeeConverter(){
 }
 
 function asdConverter(){
-    let url = "https://api.ratesapi.io/latest?base=AUD";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=AUD";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -299,7 +300,7 @@ function asdConverter(){
 }
 
 function skwConverter(){
-    let url = "https://api.ratesapi.io/latest?base=KRW";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=KRW";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -349,7 +350,7 @@ function skwConverter(){
 }
 
 function rubleConverter(){
-    let url = "https://api.ratesapi.io/latest?base=RUB";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=RUB";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -399,7 +400,7 @@ function rubleConverter(){
 }
 
 function yuanConverter(){
-    let url = "https://api.ratesapi.io/latest?base=CNY";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=CNY";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -449,7 +450,7 @@ function yuanConverter(){
 }
 
 function francConverter(){
-    let url = "https://api.ratesapi.io/latest?base=CHF";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=CHF";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -499,7 +500,7 @@ function francConverter(){
 }
 
 function ringgitConverter(){
-let url = "https://api.ratesapi.io/latest?base=MYR";
+let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=MYR";
 let req = new XMLHttpRequest();
 req.open("GET",url);
 req.send();
@@ -550,7 +551,7 @@ req.onload=()=>{
 
 
 function pesoConverter(){
-    let url = "https://api.ratesapi.io/latest?base=MXN";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=MXN";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -600,7 +601,7 @@ function pesoConverter(){
 }
 
 function iskConverter(){
-    let url = "https://api.ratesapi.io/latest?base=ISK";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=ISK";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -650,7 +651,7 @@ function iskConverter(){
 }
 
 function ronConverter(){
-    let url = "https://api.ratesapi.io/latest?base=RON";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=RON";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -700,7 +701,7 @@ function ronConverter(){
 }
 
 function brlConverter(){
-    let url = "https://api.ratesapi.io/latest?base=BRL";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=BRL";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -750,7 +751,7 @@ function brlConverter(){
 }
 
 function bgnConverter(){
-    let url = "https://api.ratesapi.io/latest?base=BGN";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=BGN";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -800,7 +801,7 @@ function bgnConverter(){
 }
 
 function idrConverter(){
-    let url = "https://api.ratesapi.io/latest?base=IDR";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=IDR";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -850,7 +851,7 @@ function idrConverter(){
 }
 
 function sgdConverter(){
-    let url = "https://api.ratesapi.io/latest?base=SGD";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=SGD";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -900,7 +901,7 @@ function sgdConverter(){
 }
 
 function cadConverter(){
-    let url = "https://api.ratesapi.io/latest?base=cad";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=cad";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -950,7 +951,7 @@ function cadConverter(){
 }
 
 function islConverter(){
-    let url = "https://api.ratesapi.io/latest?base=ILS";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=ILS";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1000,7 +1001,7 @@ function islConverter(){
 }
 
 function zarConverter(){
-    let url = "https://api.ratesapi.io/latest?base=ZAR";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=ZAR";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1050,7 +1051,7 @@ function zarConverter(){
 }
 
 function hrkConverter(){
-    let url = "https://api.ratesapi.io/latest?base=HRK";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=HRK";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1100,7 +1101,7 @@ function hrkConverter(){
 }
 
 function czkConverter(){
-    let url = "https://api.ratesapi.io/latest?base=CZK";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=CZK";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1150,7 +1151,7 @@ function czkConverter(){
 }
 
 function sekConverter(){
-    let url = "https://api.ratesapi.io/latest?base=SEK";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=SEK";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1200,7 +1201,7 @@ function sekConverter(){
 }
 
 function dkkConverter(){
-    let url = "https://api.ratesapi.io/latest?base=DKK";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=DKK";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1250,7 +1251,7 @@ function dkkConverter(){
 }
 
 function nokConverter(){
-    let url = "https://api.ratesapi.io/latest?base=NOK";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=NOK";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1300,7 +1301,7 @@ function nokConverter(){
 }
 
 function thbConverter(){
-    let url = "https://api.ratesapi.io/latest?base=THB";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=THB";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1350,7 +1351,7 @@ function thbConverter(){
 }
 
 function nzdConverter(){
-    let url = "https://api.ratesapi.io/latest?base=NZD";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=NZD";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1400,7 +1401,7 @@ function nzdConverter(){
 }
 
 function triConverter(){
-    let url = "https://api.ratesapi.io/latest?base=TRY";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=TRY";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1450,7 +1451,7 @@ function triConverter(){
 }
 
 function hkdConverter(){
-    let url = "https://api.ratesapi.io/latest?base=HKD";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=HKD";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1500,7 +1501,7 @@ function hkdConverter(){
 }
 
 function plnConverter(){
-    let url = "https://api.ratesapi.io/latest?base=PLN";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=PLN";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1550,7 +1551,7 @@ function plnConverter(){
 }
 
 function hufConverter(){
-    let url = "https://api.ratesapi.io/latest?base=HUF";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=HUF";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
@@ -1600,7 +1601,7 @@ function hufConverter(){
 }
 
 function phpConverter(){
-    let url = "https://api.ratesapi.io/latest?base=PHP";
+    let url = "http://api.exchangeratesapi.io/v1/latest?access_key=2cbf95cba2e77662244ea9d5e20b4bcc&base=PHP";
     let req = new XMLHttpRequest();
     req.open("GET",url);
     req.send();
